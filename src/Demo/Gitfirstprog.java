@@ -10,12 +10,20 @@ public class Gitfirstprog {
 		System.out.println("Sum is : " + sum);
 		
 	}
+	
+	void sum(int c, int d) {
+		c = a;
+		d = b;
+		sum = c + d;
+		System.out.println("updated sum : " +sum);
+	}
 
 	public static void main(String[] args) {
 		System.out.println("Hello Vijaya");
 		Gitfirstprog obj = new Gitfirstprog();
 		
 		obj.sum();
+		obj.sum(0, 0);
 		
 		
 		
